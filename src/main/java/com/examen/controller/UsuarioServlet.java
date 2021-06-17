@@ -21,7 +21,7 @@ import jakarta.servlet.RequestDispatcher;
 /**
  * Servlet implementation class UsuarioServlet
  */
-@WebServlet("/UsuarioServlet")
+@WebServlet("/user-form")
 public class UsuarioServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private UsuarioDao userDao;
